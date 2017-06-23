@@ -4,10 +4,10 @@ from otree.api import (
 )
 
 
-author = 'Your name here'
+author = 'Philip Chapkovski, UZH'
 
 doc = """
-Your app description
+Custom WaitPage to push players based on status of players in previous apps
 """
 
 

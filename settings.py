@@ -121,7 +121,7 @@ SESSION_CONFIGS = [
 # anything you put after the below line will override
 # oTree's default settings. Use with caution.
 otree.settings.augment_settings(globals())
-CHANNEL_LAYERS['inmemory']['BACKEND'] = 'otree.channels.asgi_redis.RedisChannelLayer'
+# CHANNEL_LAYERS['inmemory']['BACKEND'] = 'otree.channels.asgi_redis.RedisChannelLayer'
 print('######::::: ', CHANNEL_LAYERS['inmemory']['BACKEND'])
 # ])
 # CHANNEL_LAYERS = {
